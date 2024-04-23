@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "committee.nova.invisiblekeybinding.mixin",
+  "refmap": "mixins.longnbtkiller.refmap.json",
+  "target": "@env(DEFAULT)",
+  "compatibilityLevel": "JAVA_8",
+  "client": [
+    "MixinCategoryEntry",
+    "MixinGuiKeyBindingList",
+    "MixinKeyEntry"
+  ]
+}
