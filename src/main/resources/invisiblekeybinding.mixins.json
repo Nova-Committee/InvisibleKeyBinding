@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "committee.nova.invisiblekeybinding.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "refmap": "invisiblekeybinding.refmap.json",
+  "client": [
+    "MixinKeyBindsList"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
